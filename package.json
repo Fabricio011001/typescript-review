@@ -1,0 +1,15 @@
+{
+  "name": "typescript-review",
+  "version": "1.0.0",
+  "description": "TypeScript Review Project, illustrating fundamental aspects about Typescript projects",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node build/main.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.2",
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.4.3",
+    "uuid": "^9.0.1"
+  }
+}
